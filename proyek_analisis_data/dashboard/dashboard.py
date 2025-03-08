@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
+import matplotlib
 import matplotlib.pyplot as plt
+print(matplotlib.__version__)
+
 import seaborn as sns
 
 # Load dataset
